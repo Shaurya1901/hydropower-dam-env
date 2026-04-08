@@ -1,0 +1,15 @@
+
+name: hydropower-dam-env
+version: 0.1.0
+description: >
+  A reinforcement learning environment where an agent operates a hydropower dam
+  across a 90-day season. The agent decides hourly water release levels to maximize
+  power revenue while avoiding floods, ecological violations, and reservoir mismanagement.
+author: Nakshatra
+action_class: HydropowerAction
+observation_class: HydropowerObservation
+state_class: HydropowerState
+configs:
+  - easy
+  - medium
+  - hard
