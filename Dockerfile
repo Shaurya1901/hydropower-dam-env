@@ -2,8 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir fastapi uvicorn pydantic openenv-core --no-deps
-RUN pip install --no-cache-dir requests pyyaml websockets httpx
+RUN pip install --no-cache-dir fastapi uvicorn pydantic openenv-core requests pyyaml websockets httpx click
 
 COPY . .
 
