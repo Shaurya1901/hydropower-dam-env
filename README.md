@@ -253,3 +253,5 @@ hydropower_dam_env/
     ├── app.py             # FastAPI application (HTTP + WebSocket endpoints)
     └── Dockerfile         # Container image definition
 ```
+
+# Hydropower Dam Environment
