@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI
-from openenv.core.env_server.base_app import create_app
+from openenv.core.env_server.http_server import create_app
 from hydropower_dam_env_environment import HydropowerDamEnvEnvironment
 from models import HydropowerAction, HydropowerObservation, HydropowerState
 
